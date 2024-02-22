@@ -98,7 +98,7 @@ You can download the full checkpoint which contains backbone and projection head
     <th>23.4</th>
     <th>58.1</th>
     <td><a href="https://rdr.kuleuven.be/api/access/datafile/159667">ckpt</a></td>
-    <td><a href="https://github.com/tileb1/CrIBo/checkpoints/vits16-coco_args.json">args</a></td>
+    <td><a href="https://github.com/tileb1/CrIBo/blob/main/checkpoints/vits16-coco_args.json">args</a></td>
   </tr>
 
   <tr>
@@ -109,7 +109,7 @@ You can download the full checkpoint which contains backbone and projection head
     <th>28.3</th>
     <th>73.2</th>
     <td><a href="https://rdr.kuleuven.be/api/access/datafile/159665">ckpt</a></td>
-    <td><a href="https://github.com/tileb1/CrIBo/checkpoints/vits16-in_args.json">args</a></td>
+    <td><a href="https://github.com/tileb1/CrIBo/blob/main/checkpoints/vits16-in_args.json">args</a></td>
   </tr>
   <tr>
     <th>ImageNet-1k</th>
@@ -119,7 +119,7 @@ You can download the full checkpoint which contains backbone and projection head
     <th>30.0</th>
     <th>74.9</th>
     <td><a href="https://rdr.kuleuven.be/api/access/datafile/159666">ckpt</a></td>
-    <td><a href="https://github.com/tileb1/CrIBo/checkpoints/vitb16-in_args.json">args</a></td>
+    <td><a href="https://github.com/tileb1/CrIBo/blob/main/checkpoints/vitb16-in_args.json">args</a></td>
   </tr>
 </table>
 
