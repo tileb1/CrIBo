@@ -18,7 +18,7 @@ pip install einops
 
 ## Pretraining
 ### Single GPU pretraining
-Run the [main_cribo.py](main_croc.py) file. Command line args are defined in [parser.py](cribo_utils/parser.py).
+Run the [main_cribo.py](main_cribo.py) file. Command line args are defined in [parser.py](cribo_utils/parser.py).
 ```bash
 python main_cribo.py
 ```
