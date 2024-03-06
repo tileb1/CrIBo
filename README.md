@@ -44,7 +44,7 @@ export MASTER_ADDR=$master_addr
 export MASTER_PORT=12802
 
 srun --unbuffered \
-python main_dino.py \
+python main_cribo.py \
 --imagenet1k_path /path/to/ilsvrc2012 \
 --output_dir . \
 --n_tokens 32 \
