@@ -47,7 +47,7 @@ def get_dataset(args, transform, target_transform=lambda x: x, val_or_train='tra
 
         assert ('ILSVRC2012_img_train' in os.listdir(root_dir))
         assert ('ILSVRC2012_img_val' in os.listdir(root_dir))
-        return AdaSimDataset(os.path.join(root_dir, 'ILSVRC2012_img_{}'.format(val_or_train)), args,
+        return CrIBoDataset(os.path.join(root_dir, 'ILSVRC2012_img_{}'.format(val_or_train)), args,
                              transform=transform,
                              return_index_instead_of_target=True)
     else:
@@ -69,7 +69,7 @@ def get_dataloader(args, dataset, **kwargs):
     return out
 
 
-class AdaSimDataset(DatasetFolder):
+class CrIBoDataset(DatasetFolder):
     def __init__(
             self,
             root: str,
