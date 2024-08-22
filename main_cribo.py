@@ -424,7 +424,7 @@ def train_one_epoch(student, teacher, teacher_without_ddp, dino_loss, data_loade
 
     for it, to_unpack in enumerate(metric_logger.log_every(the_iterator, 20, header)):
         if len(to_unpack):
-            images, indices, crop_pos = to_unpack
+            images, crop_pos = to_unpack
         else:
             raise NotImplementedError
 
