@@ -1,8 +1,8 @@
 # CrIBo
-[[`arXiv`](https://arxiv.org/pdf/2310.07855)]
+[[`OpenReview`](https://openreview.net/pdf?id=3M0GXoUEzP)]
 
 This repo contains the Pytorch implementation of our ICLR 2024 paper (spotlight):
-> [**CrIBo: Self-Supervised Learning via Cross-Image Object-Level Bootstrapping**](https://arxiv.org/pdf/2310.07855.pdf)
+> [**CrIBo: Self-Supervised Learning via Cross-Image Object-Level Bootstrapping**](https://openreview.net/pdf?id=3M0GXoUEzP)
 >
 >[Tim Lebailly*](https://www.timlebailly.com/), [Thomas Stegmüller*](https://people.epfl.ch/thomas.stegmuller?lang=en), [Behzad Bozorgtabar](https://behzadbozorgtabar.com/), [Jean-Philippe Thiran](https://people.epfl.ch/jean-philippe.thiran) and [Tinne Tuytelaars](https://homes.esat.kuleuven.be/~tuytelaa/).
 
